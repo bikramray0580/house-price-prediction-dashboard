@@ -40,7 +40,7 @@ def predict_price():
 
         price = int(pred[0])
 
-        result_label.configure(text=f"₹ {price:,}")
+        result_label.configure(text=f"$ {price:,}")
 
         record = f"₹ {price:,} | Area:{int(living_area)} | Q:{int(quality)}"
         history.append(record)
@@ -129,7 +129,7 @@ ctk.CTkLabel(
 
 result_label = ctk.CTkLabel(
     price_card,
-    text="₹ 0",
+    text="$ 0",
     font=("Segoe UI",48,"bold"),
     text_color="green"
 )
