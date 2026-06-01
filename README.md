@@ -6,7 +6,7 @@ A Machine Learning-powered desktop application that predicts house prices using 
 
 ## 📸 Dashboard Preview
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/Dashboard.png)
 
 ---
 
